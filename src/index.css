@@ -10,5 +10,25 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
   color: #000;
-  margin: 0px
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Header */
+
+.header { 
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+.header-logo {
+  max-width: 100px;
+}
+
+.header-text {
+  align-items: center;
 }
