@@ -15,6 +15,7 @@ html, body {
   width: 100%;
 }
 
+
 /* Header */
 
 .header { 
@@ -25,10 +26,25 @@ html, body {
   justify-content: center;
 }
 
+
+/* Header Logo and Text */
+
 .header-logo {
   max-width: 100px;
 }
 
 .header-text {
   align-items: center;
+}
+
+
+/* Header Menu List */
+
+.header-menu-list {
+  display: flex;
+}
+
+.header-menu-list img {
+  width: 100px;
+  height: 100px;
 }
