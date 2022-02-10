@@ -45,10 +45,11 @@ html, body {
 
 .header-menu-list {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .header-menu-list img {
+  border-radius: 50%;
   width: 150px;
   height: 150px;
 }
