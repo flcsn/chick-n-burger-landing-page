@@ -1,5 +1,5 @@
 import React from 'react'
-import ChickenIcon from '../assets/chicken/fried-chicken-icon.png'
+import ChickenIcon from '../assets/chicken/chicken-icon.jpg'
 import BurgerIcon from '../assets/burgers/burger-icon.jpg'
 import FriesIcon from '../assets/sides/fries-icon.png'
 import DrinkIcon from '../assets/drinks/drink-icon.jpg'
