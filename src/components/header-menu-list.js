@@ -6,20 +6,32 @@ import DrinkIcon from '../assets/drinks/drink-icon.jpg'
 
 const HeaderMenuList = () => {
   return (
-    <div className='header-menu-list'>
-      <div className='header-menu-icon'>
-        <img src={ChickenIcon} alt='chicken icon' />
-      </div>
-      <div className='header-menu-icon'>
-        <img src={BurgerIcon} alt='burger icon' />
-      </div>
-      <div className='header-menu-icon'>
-        <img src={FriesIcon} alt='fries icon' />
-      </div>
-      <div className='header-menu-icon'>
-        <img src={DrinkIcon} alt='drink icon' />
-      </div>
-    </div>
+    <ul className='header-menu-list'>
+      <li>
+        <div className='header-menu-icon'>
+          <img src={ChickenIcon} alt='chicken icon' />
+        </div>
+        <p>Chicken</p>
+      </li>
+      <li>
+        <div className='header-menu-icon'>
+          <img src={BurgerIcon} alt='burger icon' />
+        </div>
+        <p>Burgers</p>
+      </li>
+      <li>
+        <div className='header-menu-icon'>
+          <img src={FriesIcon} alt='fries icon' />
+        </div>
+        <p>Sides</p>
+      </li>
+      <li>
+        <div className='header-menu-icon'>
+          <img src={DrinkIcon} alt='drink icon' />
+        </div>
+        <p>Drinks</p>
+      </li>
+    </ul>
   )
 }
 

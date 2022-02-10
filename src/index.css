@@ -15,6 +15,10 @@ html, body {
   width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 
 /* Header */
 
@@ -47,6 +51,9 @@ html, body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+.header-menu-list li {
+  text-align: center;
 }
 
 .header-menu-icon {
