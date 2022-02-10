@@ -18,16 +18,19 @@ html, body {
 
 /* Header */
 
-.header { 
-  display: flex;
-  align-items: center;
+.header {
   padding: 20px;
   width: 100%;
-  justify-content: center;
 }
 
 
 /* Header Logo and Text */
+
+.header-logo-and-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .header-logo {
   max-width: 100px;
@@ -42,6 +45,7 @@ html, body {
 
 .header-menu-list {
   display: flex;
+  justify-content: center;
 }
 
 .header-menu-list img {
