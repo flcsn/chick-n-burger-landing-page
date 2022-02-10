@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/chicknburger.png'
+import HeaderMenuList from './header-menu-list'
 
 const Header = () => {
   return (
@@ -9,6 +10,7 @@ const Header = () => {
         <h2>Chick'N'Burgers</h2>
         <p>Chicken and burgers, anytime, anywhere</p>
       </div>
+      <HeaderMenuList />
     </div>
   )
 }
