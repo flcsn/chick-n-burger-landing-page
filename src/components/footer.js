@@ -8,19 +8,19 @@ const Footer = () => {
       </div>
       <ul className='footer-links'>
         <li>
-          Contact Us
+          <a href='#'>Contact Us</a>
         </li>
         <li>
           <span className='footer-divider'>|</span>
         </li>
         <li>
-          Site Map
+          <a href='#'>Site Map</a>
         </li>
         <li>
           <span className='footer-divider'>|</span>
         </li>
         <li>
-          Privacy Policy
+          <a href='#'>Privacy Policy</a>
         </li>
       </ul>
     </div>
