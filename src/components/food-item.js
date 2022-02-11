@@ -1,11 +1,10 @@
 import React from 'react'
-import Chicken1 from '../assets/chicken/jollibee-chicken.png'
 
-const FoodItem = () => {
+const FoodItem = ({ image }) => {
   return (
     <div className='food-item'>
       <div className='food-image'>
-        <img src={Chicken1} alt='image of food'/>
+        <img src={image} alt='image of food'/>
       </div>
       <div className='food-description'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non fringilla erat. Vestibulum elementum enim.
