@@ -19,7 +19,7 @@ const burgerItems = [
     image: Burger2
   },
   {
-    title: 'Burger Burger',
+    title: 'Burger Tower',
     price: 'PhP 169.00',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non fringilla erat. Vestibulum elementum enim.',
     image: Burger3

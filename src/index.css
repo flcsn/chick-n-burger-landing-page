@@ -36,6 +36,10 @@ button {
   width: 100%;
 }
 
+.header > div {
+  margin-bottom: 20px;
+}
+
 
 /* Header Logo and Text */
 
@@ -153,3 +157,12 @@ button {
   text-transform: uppercase;
 }
 
+
+/* Divider */
+
+.divider {
+  max-width: 95%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
