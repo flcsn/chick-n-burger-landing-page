@@ -15,8 +15,17 @@ html, body {
   width: 100%;
 }
 
+
+/* Generic Styles */
+
 ul {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: none;
 }
 
 
@@ -25,6 +34,10 @@ ul {
 .header {
   padding: 20px;
   width: 100%;
+}
+
+.header > div {
+  margin-bottom: 20px;
 }
 
 
@@ -71,4 +84,85 @@ ul {
 
 .header-menu-icon:hover img {
   transform: scale(1.2);
+}
+
+
+/* Food Menu */
+
+.food-menu {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 0 20px;
+  
+}
+
+/* Food Item */
+
+.food-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid orange;
+  border-radius: 25px;
+  max-width: 250px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.food-item > * {
+  margin-bottom: 10px;
+}
+
+.food-title {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.food-price {
+  font-weight: bold;
+  color: red;
+}
+
+.food-image {
+  height: 180px;
+  width: 180px;
+  border-radius: 25px;
+  overflow: hidden
+}
+
+.food-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.food-description {
+  text-align: center;
+  width: 90%;
+}
+
+.order-food-btn-container {
+  padding: 5px 10px;
+  background-color: orange;
+  text-align: center;
+  border-radius: 5px;
+  width: 80%
+}
+
+.order-food-btn {
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+
+/* Divider */
+
+.divider {
+  max-width: 95%;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }

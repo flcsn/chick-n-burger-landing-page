@@ -2,11 +2,11 @@ import React from 'react'
 import HeaderLogoAndText from './header-logo-and-text'
 import HeaderMenuList from './header-menu-list'
 
-const Header = () => {
+const Header = ({ setSelectedFoodCategory }) => {
   return (
     <div className='header'>
       <HeaderLogoAndText />
-      <HeaderMenuList />
+      <HeaderMenuList setSelectedFoodCategory={setSelectedFoodCategory} />
     </div>
   )
 }
