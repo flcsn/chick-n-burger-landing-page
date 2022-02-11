@@ -107,6 +107,15 @@ button {
   margin-bottom: 10px;
 }
 
+.food-title {
+  font-weight: bold;
+}
+
+.food-price {
+  font-weight: bold;
+  color: red;
+}
+
 .food-image {
   height: 180px;
   width: 180px;
