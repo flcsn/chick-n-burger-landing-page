@@ -1,18 +1,17 @@
 import React from 'react'
 import FoodItem from './food-item'
-import chickenImages from '../assets/chicken/chicken'
+import chickenItems from '../assets/chicken/chicken'
 
 const FoodMenu = ({ selectedFoodCategory }) => {
-  let foodImagesToDisplay = []
+  let foodItemsToDisplay = []
 
   if (selectedFoodCategory === 'chicken')
-    foodImagesToDisplay = chickenImages
-
+    foodItemsToDisplay = chickenItems
 
   return (
     <div className='food-menu'>
-      {foodImagesToDisplay.map(image =>
-        <FoodItem key={image} image={image} />)
+      {foodItemsToDisplay.map(item =>
+        <FoodItem key={item} item={item} />)
       }
     </div>
   )
