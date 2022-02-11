@@ -187,8 +187,33 @@ button {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.footer-socials {
+  display: flex;
+  order: 1;
+}
+
+.footer-socials > li {
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+}
+
+.footer-socials > li:hover {
+  cursor: pointer;
+}
+
+.footer-socials img {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-trademark {
+  order: 0;
+}
+
 .footer-links {
   display: flex;
+  order: 2;
   align-items: center;
 }
 
