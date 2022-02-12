@@ -325,4 +325,19 @@ button {
     width: 110px;
     height: 110px;
   }
+
+  @media(max-width: 480px) {
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .header {
+      height: 330px;
+    }
+
+    .header-menu-icon {
+      width: 90px;
+      height: 90px;
+    }
+  }
 }
