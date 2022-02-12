@@ -243,6 +243,8 @@ button {
 
 .footer-trademark {
   order: 0;
+  width: 260px;
+  text-align: center;
 }
 
 .footer-trademark p {
@@ -253,6 +255,8 @@ button {
   display: flex;
   order: 2;
   align-items: center;
+  text-align: center;
+  width: 260px;
 }
 
 .footer-links li {
