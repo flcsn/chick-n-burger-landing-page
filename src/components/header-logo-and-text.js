@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/chicknburger2.png'
+import logo from '../assets/chicknburger.png'
 
 const HeaderLogoAndText = () => {
   return (
