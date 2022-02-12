@@ -288,7 +288,11 @@ button {
     flex-direction: column;
   }
 
-  .footer > div, ul {
+  .footer > div {
+    margin-top: 20px;
+  }
+
+  .footer > ul {
     margin-top: 20px;
   }
 
