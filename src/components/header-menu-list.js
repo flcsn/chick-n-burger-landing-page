@@ -1,12 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ChickenIcon from '../assets/chicken/chicken-icon.jpg'
 import BurgerIcon from '../assets/burgers/burger-icon.jpg'
 import FriesIcon from '../assets/sides/fries-icon.png'
 import DrinkIcon from '../assets/drinks/drink-icon.jpg'
 
 const HeaderMenuList = ({ setSelectedFoodCategory }) => {
+  const [isSticky, setIsSticky] = useState(false)
+
+  const makeSticky = () => {
+    if (window.scrollY >= 180) {
+      setIsSticky(true)
+    } else {
+      setIsSticky(false)
+    }
+  }
+
+  window.addEventListener('scroll', makeSticky)
+
   return (
-    <ul className='header-menu-list'>
+    <ul className={isSticky ? 'header-menu-list sticky' : 'header-menu-list'}>
       <li>
         <div className='header-menu-icon' onClick={() => setSelectedFoodCategory('chicken')}>
           <img src={ChickenIcon} alt='chicken icon' />

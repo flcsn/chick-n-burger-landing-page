@@ -6,6 +6,7 @@ const Header = ({ setSelectedFoodCategory }) => {
   return (
     <div className='header'>
       <HeaderLogoAndText />
+      <h2>Satisfy your cravings now!</h2>
       <HeaderMenuList setSelectedFoodCategory={setSelectedFoodCategory} />
     </div>
   )
