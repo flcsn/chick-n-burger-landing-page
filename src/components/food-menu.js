@@ -20,7 +20,7 @@ const FoodMenu = ({ selectedFoodCategory }) => {
   return (
     <div className='food-menu'>
       {foodItemsToDisplay.map(item =>
-        <FoodItem key={item} item={item} />)
+        <FoodItem key={item.title} item={item} />)
       }
     </div>
   )
