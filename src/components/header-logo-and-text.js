@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../assets/chicknburger.png'
+import logo from '../assets/chicknburger2.png'
 
 const HeaderLogoAndText = () => {
   return (
     <div className='header-logo-and-text'>
       <img className='header-logo' src={logo} alt='chicknburger logo'/>
       <div className='header-text'>
-        <h2>Chick&apos;N&apos;Burgers</h2>
+        <h1>Chick&apos;N&apos;Burgers</h1>
         <p>Chicken and burgers, anytime, anywhere</p>
       </div>
     </div>

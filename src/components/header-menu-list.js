@@ -8,7 +8,7 @@ const HeaderMenuList = ({ setSelectedFoodCategory }) => {
   const [isSticky, setIsSticky] = useState(false)
 
   const makeSticky = () => {
-    if (window.scrollY >= 185) {
+    if (window.scrollY >= 180) {
       setIsSticky(true)
     } else {
       setIsSticky(false)
